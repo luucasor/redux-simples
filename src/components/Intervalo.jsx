@@ -13,19 +13,19 @@ function Intervalo(props) {
             <div className="Intervalo">
                 <span>
                     <strong>Mínimo:</strong>
-                    <input 
-                        type="number" 
-                        value={min} 
+                    <input
+                        type="number"
+                        value={min}
                         onChange={e => props.alterarMinimo(+e.target.value)}
                     />
                 </span>
                 <span>
                     <strong>Máximo:</strong>
-                    <input 
-                        type="number" 
+                    <input
+                        type="number"
                         value={max}
                         onChange={e => props.alterarMaximo(+e.target.value)}
-                        />
+                    />
                 </span>
             </div>
         </Card>
